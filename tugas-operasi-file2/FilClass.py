@@ -14,8 +14,8 @@ class Handlefile:
 
     def tulis_file(self, nama_file, mode):
         try:
-            nama_kartun = input("Nama kartun: ")
-            teks = "\n {}".format(nama_kartun)
+            nama_makanan = input("Nama makanan: ")
+            teks = "\n {}".format(nama_makanan)
             with open(nama_file, mode) as file:
                 file.write(teks)
                 print(f"Text sudah ditulis dan sudah disimpan di file {nama_file}")
